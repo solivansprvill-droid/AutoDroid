@@ -27,9 +27,19 @@ jobs:
       
     - name: Build Debug APK
       run: ./gradlew assembleDebug --stacktrace
+
+    - name: Rename APK to AutoDroid
+      run: |
+        APK_DIR="app/build/outputs/apk/debug"
+        DATE=$(date +%Y%m%d_%H%M%S)
+        NEW_NAME="AutoDroid_v0.0.2_${DATE}.apk"
+        # 找到构建出来的 apk 并重命名
+        find "$APK_DIR" -name "*.apk" | head -1 | xargs -I{} mv {} "$APK_DIR/$NEW_NAME"
+        echo "Renamed APK to: $NEW_NAME"
+        ls -la "$APK_DIR/"
       
     - name: Upload AutoDroid APK
       uses: actions/upload-artifact@v4
       with:
         name: AutoDroid-debug
-        path: app/build/outputs/apk/debug/*.apk
+        path: app/build/outputs/apk/debug/AutoDroid_*.apk
