@@ -1,4 +1,8 @@
-# ApkClaw
+# ApkClaw Enhanced
+
+> **版权声明：**
+> - Copyright 2024 ApkClaw Team (原始项目)
+> - Copyright 2026 solivansprvill-droid (ApkClaw-Enhanced 增强版)
 
 [English](README.md)
 
