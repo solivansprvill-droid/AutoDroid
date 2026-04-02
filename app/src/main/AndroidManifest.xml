@@ -36,14 +36,14 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ApkClaw">
+        android:theme="@style/Theme.AutoDroid">
 
         <!-- 启动页 -->
         <activity
             android:name=".ui.splash.SplashActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.ApkClaw.Splash">
+            android:theme="@style/Theme.AutoDroid.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
