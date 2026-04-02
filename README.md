@@ -1,8 +1,8 @@
-# ApkClaw Enhanced
+# AutoDroid
 
 > **Copyright Notice:**
 > - Copyright 2024 ApkClaw Team (Original Project)
-> - Copyright 2026 solivansprvill-droid (ApkClaw-Enhanced)
+> - Copyright 2026 solivansprvill-droid (AutoDroid)
 
 [中文文档](README_CN.md)
 
