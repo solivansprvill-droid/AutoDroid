@@ -31,7 +31,7 @@
     <string name="guide_title_notification">Persistent Notification</string>
     <string name="guide_desc_notification">Keeps the app running in the background to prevent it from being killed by the system.\n\nJust tap the card on the home screen to enable it. Android 13+ will ask for notification permission first.</string>
     <string name="guide_title_overlay">System Overlay</string>
-    <string name="guide_desc_overlay">Displays a floating panel showing AI execution status.\n\n1. Go to Settings → Apps → ApkClaw\n2. Find \"Display over other apps\"\n3. Turn on the switch</string>
+    <string name="guide_desc_overlay">Displays a floating panel showing AI execution status.\n\n1. Go to Settings → Apps → AutoDroid\n2. Find \"Display over other apps\"\n3. Turn on the switch</string>
     <string name="guide_title_battery">Battery Whitelist</string>
     <string name="guide_desc_battery">Prevents the system from stopping the app in the background.\n\nTap the card on the home screen, then confirm \"Allow\" in the system dialog. (Some devices may require setting to \"Unrestricted\")</string>
     <string name="guide_title_storage">File Access</string>
@@ -39,7 +39,7 @@
 
     <!-- Home -->
     <string name="home_need_notification_permission">Notification permission is required</string>
-    <string name="home_enable_accessibility">Please enable ApkClaw Accessibility Service</string>
+    <string name="home_enable_accessibility">Please enable AutoDroid Accessibility Service</string>
     <string name="home_accessibility_enabled">Accessibility service enabled</string>
     <string name="home_notification_enabled">Persistent notification enabled</string>
     <string name="home_overlay_enabled">Overlay permission enabled</string>
@@ -142,9 +142,9 @@
     <string name="floating_task_received">Received: \"%s\"</string>
 
     <!-- Foreground Service Notification -->
-    <string name="notification_channel_name">ApkClaw Status</string>
-    <string name="notification_channel_description">Shows ApkClaw running status and stats</string>
-    <string name="notification_content_title">ApkClaw Running</string>
+    <string name="notification_channel_name">AutoDroid Status</string>
+    <string name="notification_channel_description">Shows AutoDroid running status and stats</string>
+    <string name="notification_content_title">AutoDroid Running</string>
     <string name="notification_content_text">AI Agent service is active</string>
 
     <!-- Channel Messages -->
