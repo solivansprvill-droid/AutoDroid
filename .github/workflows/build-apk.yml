@@ -1,4 +1,4 @@
-name: Build ApkClaw Enhanced APK
+name: Build AutoDroid APK
 
 on:
   push:
@@ -28,8 +28,8 @@ jobs:
     - name: Build Debug APK
       run: ./gradlew assembleDebug --stacktrace
       
-    - name: Upload Debug APK
+    - name: Upload AutoDroid APK
       uses: actions/upload-artifact@v4
       with:
-        name: apkclaw-enhanced-debug
+        name: AutoDroid-debug
         path: app/build/outputs/apk/debug/*.apk
